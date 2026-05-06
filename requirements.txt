@@ -1,0 +1,56 @@
+# Core PyTorch
+torch>=2.0
+torchvision
+
+# Hugging Face
+transformers>=4.51.0
+peft
+
+# Video processing
+torchcodec>=0.2.1
+decord
+opencv-python>=4.9.0
+
+# Data science
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# Deep learning utilities
+timm
+einops
+psutil
+h5py
+python-box
+fire
+ftfy
+beartype
+
+# Logging & experiment tracking
+tensorboard
+wandb
+
+# Data loading
+webdataset
+braceexpand
+iopath
+
+# Jupyter support
+jupyter
+ipython
+
+# YAML support
+pyyaml
+
+# Distributed training
+submitit
+
+# Image processing
+Pillow
+scikit-image
+
+# Visualization
+seaborn
