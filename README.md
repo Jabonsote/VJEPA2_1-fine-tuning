@@ -1,4 +1,4 @@
-# Human Activity Recognition (HAR) with V-JEPA2 – 11-Class Fine-Tuning
+# Human Activity Recognition (HAR) with V-JEPA2 Fine-Tuning
 
 ![V-JEPA2 teaser](bars_teaser_tikz-1.png)
 
