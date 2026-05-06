@@ -38,7 +38,6 @@ This repository fine-tunes **V-JEPA2**, a state-of-the-art self-supervised video
 └── ...
 ```
 
-
 ![Overall flowchart of the HAR fine‑tuning pipeline with V‑JEPA2](flowchart.png)
 
 ---
@@ -182,6 +181,8 @@ The file `test_predictions_vjepa2.1.csv` contains detailed predictions with the 
 - `predicted_label` – model's prediction
 - `probability` – confidence score of the prediction
 
+- - **Timeline visualization**: ![Timeline](timeline.png)
+
 ### Performance Notes
 
 - The current configuration yields strong results on the 11-class split
@@ -264,21 +265,7 @@ CICESE – Ensenada, Mexico
 ## Additional Resources
 
 - **Full dataset**: [Kaggle Human Activity Recognition Video Dataset](https://www.kaggle.com/datasets/sharjeelmazhar/human-activity-recognition-video-dataset)
-- **Timeline visualization**: ![Timeline](timeline.png)
-- **Demo GIF**: ![Demo](461247648-914942d8-6a1e-409d-86ff-ff856b7346ab.gif)
 - **Temporal Transformer alternative**: See `Temporal_Transformer.ipynb` for a baseline model using a different architecture
 
 ---
 
-## .gitignore
-
-This repository uses a `.gitignore` file to exclude:
-- Large checkpoint files (except `best.pth`)
-- Python cache and compiled files
-- Jupyter notebook checkpoints
-- Virtual environments
-- IDE/editor files
-- OS files
-- Raw video files and logs
-
-See the [.gitignore](.gitignore) file for the complete rules.
