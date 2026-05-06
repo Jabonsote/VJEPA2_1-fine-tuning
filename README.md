@@ -4,7 +4,7 @@
 
 This repository fine-tunes **V-JEPA2**, a state-of-the-art self-supervised video model by Meta AI, for an 11-class Human Activity Recognition (HAR) task. The pipeline includes pre-processing of video clips, fine-tuning of a pre-trained V-JEPA2 backbone, and evaluation with confusion matrix and saved test predictions.
 
-> **Reference:** The original V-JEPA2 documentation is available in [`README_otiginal docs without finetuning.md`](README_otiginal%20docs%20without%20finetuning.md). This repository extends it with complete fine-tuning instructions.
+> **Reference:** The original V-JEPA2 documentation is available in [facebookresearch/vjepa2](https://github.com/facebookresearch/vjepa2)
 
 ---
 
@@ -38,7 +38,8 @@ This repository fine-tunes **V-JEPA2**, a state-of-the-art self-supervised video
 └── ...
 ```
 
-![Overall flowchart](flowchart.png)
+
+![Overall flowchart of the HAR fine‑tuning pipeline with V‑JEPA2](flowchart.png)
 
 ---
 
