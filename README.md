@@ -47,14 +47,14 @@ This repository fine-tunes **V-JEPA2**, a state-of-the-art self-supervised video
 ### 1. Clone the repository
 
 ```bash
-git clone <this-repo-url>
-cd <this-repo>
+git clone https://github.com/Jabonsote/VJEPA2_1-fine-tuning.git
+cd VJEPA2_1-fine-tuning
 ```
 
 ### 2. Install dependencies
 
 ```bash
-pip install -r vjepa2/requirements.txt
+pip install -r requirements.txt
 pip install -U git+https://github.com/huggingface/transformers
 ```
 
@@ -236,15 +236,6 @@ This project builds upon **V-JEPA2** – a self-supervised video representation 
 - **GitHub**: [facebookresearch/vjepa2](https://github.com/facebookresearch/vjepa2)
 - **HuggingFace**: [facebook/vjepa2-vitl-fpc64-256](https://huggingface.co/facebook/vjepa2-vitl-fpc64-256)
 
-### Papers
-- **V-JEPA 2 Paper**: [papers/V-JEPA 2_ PAPER.pdf](papers/V-JEPA%202_%20PAPER.pdf)
-- **V-JEPA 2.1 Paper**: [papers/V-JEPA 2.1.pdf](papers/V-JEPA%202.1.pdf)
-- **Fine-Tuning Guide**: [papers/VJEPA_FineTuning_GuideHAR.md](papers/VJEPA_FineTuning_GuideHAR.md)
-- **Differences between V-JEPA2 and V-JEPA2.1**: [papers/FineTuning_Diferencias_VJEPA2_y_VJEPA21.md](papers/FineTuning_Diferencias_VJEPA2_y_VJEPA21.md)
-
-### Additional Documentation
-- **Original README** (without fine-tuning): [README_otiginal docs without finetuning.md](README_otiginal%20docs%20without%20finetuning.md)
-- **Full V-JEPA2 Documentation**: [VJEPA2_DOCUMENTATION.md](VJEPA2_DOCUMENTATION.md)
 
 ### License
 
